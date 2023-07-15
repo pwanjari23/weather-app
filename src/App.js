@@ -11,13 +11,13 @@ import AboutUs from "./component/AboutUs";
 export default function App() {
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   )
