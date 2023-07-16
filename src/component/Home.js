@@ -111,7 +111,7 @@ const Home = () => {
                 <span className="error-message">
                   <FontAwesomeIcon icon={faFrown} />
                   <span style={{ 'font-size': '20px' }}> Sorry!!!
-                  City not found... </span>
+                    City not found... </span>
                 </span>
               </>
             )}
@@ -130,20 +130,6 @@ const Home = () => {
 
                 <div className="xl:w-1/3 md:w-1/2 p-2">
                   <div className="border border-black p-6 rounded-lg">
-                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        className="w-6 h-6"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                        <circle cx={12} cy={7} r={4} />
-                      </svg>
-                    </div>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                       Humidity %
                     </h2>
@@ -155,19 +141,6 @@ const Home = () => {
 
                 <div className="xl:w-1/3 md:w-1/2 p-2">
                   <div className="border border-black p-6 rounded-lg">
-                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        className="w-6 h-6"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-                      </svg>
-                    </div>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                       Min Temp
                     </h2>
@@ -178,19 +151,6 @@ const Home = () => {
                 </div>
                 <div className="xl:w-1/3 md:w-1/2 p-2">
                   <div className="border border-black p-6 rounded-lg">
-                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        className="w-6 h-6"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                      </svg>
-                    </div>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-2 ">
                       Max Temp
                     </h2>
